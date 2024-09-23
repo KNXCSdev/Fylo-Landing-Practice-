@@ -15,9 +15,6 @@ The designs were created to the following widths:
 
 Get Started For Free
 
-Phone: +1-543-123-4567
-example@fylo.com
-
 About Us
 Jobs
 Press

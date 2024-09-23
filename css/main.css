@@ -106,6 +106,7 @@ body {
   border: none;
   border-radius: 3px;
   box-shadow: 0 1px 3px var(--verydarkblue);
+  cursor: pointer;
 }
 .hero-img {
   width: 100%;
@@ -203,4 +204,48 @@ body {
   margin-top: 1rem;
   padding: 1.2rem 2.4rem;
   width: 30%;
+}
+
+.footer {
+  padding: 9.6rem 3rem;
+  background-color: var(--verydarkblue);
+  color: var(--lightgray);
+}
+.footer-img {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+.footer-img img {
+  filter: brightness(0) invert(1);
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-list-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.footer-list-item a:link,
+.footer-list-item a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 2rem;
+  outline: 1px solid var(--lightgray);
+  border-radius: 50%;
+  outline-offset: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(3, 1fr);
+  grid-row: 0.5fr 1fr;
+  row-gap: 2rem;
 }
