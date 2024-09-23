@@ -1,0 +1,104 @@
+:root {
+  --verydarkblue: hsl(243, 87%, 12%);
+  --desaturatedblue: hsl(238, 22%, 44%);
+  --brightblue: hsl(224, 93%, 58%);
+  --moderatecyan: hsl(170, 45%, 43%);
+  --lightgrayblue: hsl(240, 75%, 98%);
+  --lightgray: hsl(0, 0%, 75%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 170rem;
+  margin: 0 auto;
+}
+
+.header-nav {
+  max-width: 170rem;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  line-height: 1.6;
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+}
+.nav-list {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+.nav-list-item {
+  display: inline-block;
+}
+.nav-link:link, .nav-link:visited {
+  text-decoration: none;
+  color: var(--verydarkblue);
+}
+
+.hero-section {
+  padding: 9.6rem 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left {
+  flex-basis: 35%;
+}
+.hero-left-description {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+}
+.hero-email {
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 60%;
+}
+.hero-email::placeholder {
+  color: var(--lightgray);
+}
+.hero-button {
+  display: inline-block;
+  width: 40%;
+  color: white;
+  background-color: var(--brightblue);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px var(--verydarkblue);
+}
+.hero-img {
+  width: 100%;
+}
+.hero-img-block {
+  flex-basis: 50%;
+}
