@@ -39,6 +39,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.secondary-heading {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
 .nav {
   height: 7rem;
   display: flex;
@@ -101,4 +106,66 @@ body {
 }
 .hero-img-block {
   flex-basis: 50%;
+}
+
+.section-stay {
+  padding: 9.6rem 0;
+  background-image: url("/images/bg-curve-desktop.svg");
+  background-size: cover;
+  background-position: top;
+}
+
+.stay {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stay-description {
+  margin-bottom: 1.6rem;
+  line-height: 1.4;
+  width: 55%;
+}
+.stay-link:link, .stay-link:visited {
+  display: inline-block;
+  color: var(--moderatecyan);
+  margin-bottom: 5rem;
+  text-underline-offset: 10px;
+}
+.stay-logo img {
+  width: 100%;
+}
+
+.quote-block {
+  width: 41%;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
+}
+.quote-block img {
+  margin-bottom: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+.quote-block-description {
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.quote-block-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quote-block-user img {
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+}
+.quote-block-name {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--verydarkblue);
+  font-weight: 600;
+}
+.quote-block-job {
+  display: block;
+  font-size: 1.3rem;
 }
