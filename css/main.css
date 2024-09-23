@@ -44,6 +44,12 @@ body {
   margin-bottom: 4rem;
 }
 
+.tertiary-heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
 .nav {
   height: 7rem;
   display: flex;
@@ -110,6 +116,7 @@ body {
 
 .section-stay {
   padding: 9.6rem 0;
+  padding-bottom: 4.8rem;
   background-image: url("/images/bg-curve-desktop.svg");
   background-size: cover;
   background-position: top;
@@ -168,4 +175,32 @@ body {
 .quote-block-job {
   display: block;
   font-size: 1.3rem;
+}
+
+.section-early {
+  padding: 9.6rem 0;
+  background-color: var(--desaturatedblue);
+}
+
+.early {
+  display: flex;
+  justify-content: space-between;
+}
+.early-left {
+  flex: 1;
+}
+.early-description {
+  line-height: 1.6;
+  color: white;
+  width: 60%;
+}
+.early-cta {
+  flex: 1;
+}
+
+.early-cc {
+  display: block;
+  margin-top: 1rem;
+  padding: 1.2rem 2.4rem;
+  width: 30%;
 }

@@ -13,15 +13,6 @@ The designs were created to the following widths:
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
-See how Fylo works
-
-Kyle Burton
-
-Get early access today
-
-It only takes a minute to sign up and our free starter tier is extremely generous.
-If you have any questions, our support team would be happy to help you.
-
 Get Started For Free
 
 Phone: +1-543-123-4567
