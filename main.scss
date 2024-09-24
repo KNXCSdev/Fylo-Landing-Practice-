@@ -147,7 +147,7 @@ body {
   }
 }
 .quote-block {
-  width: 41%;
+  width: 50%;
   background-color: white;
   padding: 3rem;
   border-radius: 5px;
@@ -253,4 +253,107 @@ body {
   grid-template-columns: 1.5fr repeat(3, 1fr);
   grid-row: 0.5fr 1fr;
   row-gap: 2rem;
+}
+
+@media only screen and (max-width: 62em) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    max-width: 90rem;
+  }
+  .early-cc {
+    width: 20rem;
+  }
+  .quote-block {
+    width: auto;
+  }
+  .early-c {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 42em) {
+  .container {
+    max-width: 70rem;
+  }
+  .nav {
+    padding: 0 3rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .stay {
+    flex-direction: column-reverse;
+  }
+  .stay-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote-block {
+    width: 50%;
+  }
+  .secondary-heading {
+    text-align: center;
+  }
+  .early {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &-left {
+      display: flex;
+      flex-direction: column;
+    }
+    &-description {
+      align-self: center;
+      margin-bottom: 3rem;
+    }
+    &-cc {
+      width: 30rem;
+    }
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 35rem;
+  }
+  .nav-logo {
+    width: 10rem;
+  }
+  .primary-heading {
+    font-size: 2.5rem;
+  }
+  .secondary-heading {
+    font-size: 2rem;
+  }
+  .hero-cta {
+    flex-direction: column;
+  }
+  .hero-email {
+    width: 100%;
+    height: 5rem;
+  }
+  .hero-button {
+    width: 100%;
+    height: 5rem;
+  }
+  .stay-description {
+    width: 100%;
+  }
+  .quote-block {
+    width: 100%;
+  }
+  .early-description {
+    width: 100%;
+  }
 }
